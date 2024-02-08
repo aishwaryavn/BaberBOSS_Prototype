@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Industry Management</title>
+    <link rel="stylesheet" href="<c:url value="/styles.css"/>">
+</head>
+<body>
+    <header>
+        <h1>Product Industry Management</h1>
+        ---------> Separate section to connect the System Admin to different departments.
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#design">Design</a></li>
+            <li><a href="#marketing">Marketing</a></li>
+            <li><a href="#systemAdmin">System Admin</a></li>
+            <li><a href="#manufacture">Manufacture</a></li>
+            <li><a href="#distribution">Distribution & Delivery</a></li>
+            <li><a href="#production">Production</a></li>
+            <li><a href="#communication">Communicate with employees</a></li>
+            <li><a href="#dataStorage" id="data-storage-btn">Data storage area</a></li>
+            <li><a href="#tools" id="tools-btn">Tools</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="design">
+            <h2>Design</h2>
+            <p> <------ Can give a description of design and working of the product. ------> </p>
+            
+        </section>
+        <!-- Add other sections for marketing, system admin, manufacture, etc. -->
+        <section id="tools">
+            <h2>Tools</h2>
+            ------> To communicate with team members of any or all departments.
+            <button onclick="window.open('https://www.atlassian.com/software/jira')">Jira</button>
+            <button onclick="window.open('https://www.microsoft.com/en-us/microsoft-teams/group-chat-software')">MS Teams</button>
+            <button onclick="window.open('https://mail.google.com/')">Gmail</button>
+        </section>
+    </main>
+    <script src="<c:url value="/script.js"/>"></script>
+</body>
+</html>
